@@ -3,6 +3,26 @@
 Reference Implementation of [The Expressly .NET SDK](https://github.com/expressly/expressly-plugin-sdk-dotnet-core)
 
 * * *
+
+# Running the solution
+
+If you go to http:/localhost/expressly/api/ping you can see the endpoint is answering correctly
+
+
+* * *
+
+## NuGet Package
+
+The nuget package can be found here: [Expressly Plugin SDK](https://www.nuget.org/packages/Expressly/)
+
+You can also add it to your project by adding this line to your packages.config file:
+
+```
+  <packages>
+    <package id="Expressly" version="1.1.2" targetFramework="net45" />
+  <\packages>
+```
+
 ## Prerequisites
 
 - .NET 4.0 or later
@@ -11,6 +31,15 @@ Reference Implementation of [The Expressly .NET SDK](https://github.com/expressl
 ## Configuration
 In order to use the Expressly .NET SDK with your application, you will need to first configure your application. By default, the SDK will attempt to look for Expressly-specific settings in your application's **web.config** file.
 
+# Implementation
+
+Make sure to create an Implementation of the IMerchantProvider interface, this is necessary for the plugin to communicate with your own logic.
+
+The ExpresslyProvider class gives you methods to talk directly to our back end.
+
+Make sure to publish ExpresslyRouter, this exposes the necessary endpoints for our back end to talk to.
+
+Finally, configure your application. (details below)
 
 # Expressly Config Settings
 
@@ -95,3 +124,7 @@ In order to enable logging with the SDK, add the following configuration informa
   </appSettings>
 </configuration>
 ```
+
+## Testing your solution against our servers
+
+A test harness is under development.
