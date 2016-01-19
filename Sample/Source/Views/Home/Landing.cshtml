@@ -1,0 +1,17 @@
+﻿@model Expressly.SDK.Sample.MVC.Models.LandingViewModel
+
+@{
+    ViewBag.Title = "Landing Page";
+}
+
+<div class="alert alert-success" role="alert" style="margin-top: 20px;">
+    <div class="row text-center">
+        <div class="col-xs-12 col-md-12 text-center">
+            <strong> @Model.Message </strong>
+        </div>
+
+        <div class="col text-center" style="margin-top: 20px;">
+            @Html.ActionLink("Go to Shop", "Index", "Home", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+</div>

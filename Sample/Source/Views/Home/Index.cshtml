@@ -1,0 +1,50 @@
+﻿@model Expressly.SDK.Sample.MVC.Models.HomeViewModel
+
+@{
+    ViewBag.Title = "Expressly ASP.NET example";
+}
+
+<div class="jumbotron text-center">
+    <h1>Expressly ASP.NET example</h1>
+    <p class="lead">Expressly SDK implementation example</p>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Shop configuration</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-bordered">
+            <tr>
+                <td>Merchant Uuid</td>
+                <td>API key</td>
+            </tr>
+            <tr>
+                <td class="success">@Model.merchantUuid</td>
+                <td class="danger">@Model.apiKey</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Migration Popup Test</h3>
+    </div>
+    <div class="panel-body">
+        <div class="col-xs-6 col-md-2">
+            @Html.ActionLink("Show Migration Popup", "ShowMigrationPopup", "Home", null, new { @class = "modal-link btn btn-success" })
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="modal-container" class="modal fade"
+     tabindex="-1" role="dialog">
+    <div class="modal-content">
+    </div>
+</div>
+

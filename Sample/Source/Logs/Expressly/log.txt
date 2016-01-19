@@ -1,0 +1,174 @@
+﻿2015-12-22 10:12:17,274 [DEBUG] - Content-Type:application/json
+2015-12-22 10:12:17,285 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 10:12:17,490 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 10:12:17,726 [DEBUG] - Service response: 
+2015-12-22 10:12:17,729 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 10:12:17,737 [DEBUG] - Content-Type:application/json
+2015-12-22 10:12:17,737 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 10:12:17,900 [DEBUG] - Service response: 
+2015-12-22 10:12:17,901 [DEBUG] - Code [200 - OK]. Body: {"apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2"}
+2015-12-22 10:12:22,147 [DEBUG] - Content-Type:application/json
+2015-12-22 10:12:22,147 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 10:12:22,148 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 10:12:22,283 [DEBUG] - Service response: 
+2015-12-22 10:12:22,283 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 10:12:22,284 [DEBUG] - Content-Type:application/json
+2015-12-22 10:12:22,284 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 10:12:22,929 [DEBUG] - Service response: 
+2015-12-22 10:12:22,946 [DEBUG] - Code [200 - OK]. Body: <link rel="stylesheet" type="text/css" href="https://dev.expresslyapp.com/popup/campaign/css/style.css?v=201552">
+<div id="xly" class="xly xly-popup">
+    <div class="xly xly-container">
+        <div class="xly xly-row">
+            <div class="xly-item xly-logo">
+                <div class="xly-cell xly-bordered">
+                    <div style="background: url(https://buyexpressly.com/assets/img/handshake-lg.png) no-repeat center; background-size: contain;"></div>
+                </div>
+                <div class="xly-cell">
+                    <div class="xly-arrows"></div>
+                </div>
+                <div class="xly-cell xly-bordered">
+                    <div style="background: url(http://buyexpressly.com/assets/img/expressly-logo-white.png) no-repeat center; background-size: contain;"></div>
+                </div>
+            </div>
+            <div class="xly-item xly-content">
+                <div class="top">
+                    Welcome TEST1
+                </div>
+                <div class="xly-bottom">
+                    <div>
+                        <span>testr1232</span>
+                        <span class="xly-regular"> will receive the following info</span>
+                        <span class="xly-regular"> from</span>
+                        <span>Dummy Shop:</span>
+                    </div>
+                    <span class="xly-regular">your basic details, delivery address, email.</span>
+                </div>
+            </div>
+            <div class="xly-footer">
+                <div class="xly-item">
+                    <div class="xly-secure">
+                        <img src="https://dev.expresslyapp.com/popup/campaign/img/lock.png">
+                        This secure step makes your offer easy (<a href="https://buyexpressly.com/#/consumer"
+                                                                   target="_blank">learn more</a>).
+                        <a href="http://vstudio-xly.cloudapp.net">Not TEST1?</a>
+                    </div>
+                    <div class="xly-actions">
+                        <a onclick="expresslyContinue(this);return false;">
+                            <div class="xly-accept">OK</div>
+                        </a>
+                        <div class="xly-loader"><img src="https://dev.expresslyapp.com/popup/campaign/img/ajax-loader.gif"></div>
+                        <a href="http://vstudio-xly.cloudapp.net">
+                            <div class="xly-decline">Cancel</div>
+                        </a>
+                    </div>
+                    <div class="xly-terms">
+                        <div class="xly-policy">
+                            <a class="xly-dot" href="" target="_blank">Terms</a>&middot;
+                            <a class="xly-dot" href="" target="_blank">Privacy Policy</a>&middot;
+                            Powered by
+                            <span class="expressly">
+                                <a href="https://www.buyexpressly.com">
+                                    <img src="https://dev.expresslyapp.com/popup/campaign/img/expressly_logo.jpg" alt="expressly">
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="xly-clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    (function () {
+        expresslyContinue = function (event) {
+            event.style.display = "none";
+            var loader = event.nextElementSibling;
+            loader.style.display = "block";
+            loader.nextElementSibling.style.display = "none";
+
+            window.location.replace("https://localhost.com/expressly/api/cd803ea3-cf06-4994-9102-8cc83169379f/migrate");
+        };
+
+        (function () {
+            // make sure our popup is on top or hierarchy
+            content = document.getElementById("xly");
+            document.body.insertBefore(content, document.body.children[0]);
+    })();
+    })();
+</script>
+2015-12-22 16:26:23,183 [DEBUG] - Content-Type:application/json
+2015-12-22 16:26:23,196 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:26:23,391 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:26:23,637 [DEBUG] - Service response: 
+2015-12-22 16:26:23,638 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:26:23,640 [DEBUG] - Content-Type:application/json
+2015-12-22 16:26:23,640 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:26:23,806 [DEBUG] - Service response: 
+2015-12-22 16:26:23,806 [DEBUG] - Code [200 - OK]. Body: {"apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2"}
+2015-12-22 16:26:25,718 [DEBUG] - Content-Type:application/json
+2015-12-22 16:26:25,718 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:26:25,719 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:26:25,947 [DEBUG] - Service response: 
+2015-12-22 16:26:25,948 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:26:25,948 [DEBUG] - Expressly plugin endpoint 'popupHandler' is called.
+2015-12-22 16:26:26,051 [DEBUG] - Content-Type:application/json
+2015-12-22 16:26:26,052 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:26:26,052 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:26:26,192 [DEBUG] - Service response: 
+2015-12-22 16:26:26,193 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:26:26,195 [DEBUG] - Content-Type:application/json
+2015-12-22 16:26:26,196 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:26:26,464 [ERROR] - Error response:
+2015-12-22 16:26:26,465 [ERROR] - 
+2015-12-22 16:26:26,465 [ERROR] - Удаленный сервер возвратил ошибку: (403) Запрещено.
+2015-12-22 16:29:07,828 [DEBUG] - Content-Type:application/json
+2015-12-22 16:29:07,829 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:29:07,984 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:29:08,139 [DEBUG] - Service response: 
+2015-12-22 16:29:08,139 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:29:08,140 [DEBUG] - Content-Type:application/json
+2015-12-22 16:29:08,140 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:29:08,331 [DEBUG] - Service response: 
+2015-12-22 16:29:08,331 [DEBUG] - Code [200 - OK]. Body: {"apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2"}
+2015-12-22 16:29:15,741 [DEBUG] - Content-Type:application/json
+2015-12-22 16:29:15,742 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:29:15,832 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:29:15,993 [DEBUG] - Service response: 
+2015-12-22 16:29:15,993 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:29:15,993 [DEBUG] - Expressly plugin endpoint 'popupHandler' is called.
+2015-12-22 16:29:16,035 [DEBUG] - Content-Type:application/json
+2015-12-22 16:29:16,035 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:29:16,035 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:29:16,265 [DEBUG] - Service response: 
+2015-12-22 16:29:16,265 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:29:16,266 [DEBUG] - Content-Type:application/json
+2015-12-22 16:29:16,266 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:29:16,468 [ERROR] - Error response:
+2015-12-22 16:29:16,469 [ERROR] - 
+2015-12-22 16:29:16,469 [ERROR] - Удаленный сервер возвратил ошибку: (403) Запрещено.
+2015-12-22 16:30:22,790 [DEBUG] - Content-Type:application/json
+2015-12-22 16:30:22,802 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:30:23,024 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:30:23,186 [DEBUG] - Service response: 
+2015-12-22 16:30:23,186 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:30:23,190 [DEBUG] - Content-Type:application/json
+2015-12-22 16:30:23,191 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:30:23,338 [DEBUG] - Service response: 
+2015-12-22 16:30:23,339 [DEBUG] - Code [200 - OK]. Body: {"apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2"}
+2015-12-22 16:30:34,892 [DEBUG] - Content-Type:application/json
+2015-12-22 16:30:34,893 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:30:34,992 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:30:35,146 [DEBUG] - Service response: 
+2015-12-22 16:30:35,146 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:30:35,147 [DEBUG] - Expressly plugin endpoint 'popupHandler' is called.
+2015-12-22 16:30:41,128 [DEBUG] - Content-Type:application/json
+2015-12-22 16:30:41,129 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:30:41,203 [DEBUG] - {"apiBaseUrl":"http://vstudio-xly.cloudapp.net","apiKey":"Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2","pluginVersion":"v2"}
+2015-12-22 16:30:41,333 [DEBUG] - Service response: 
+2015-12-22 16:30:41,335 [DEBUG] - Code [204 - NoContent]. Body: 
+2015-12-22 16:30:42,769 [DEBUG] - Content-Type:application/json
+2015-12-22 16:30:42,770 [DEBUG] - Authorization:Basic Y2Q4MDNlYTMtY2YwNi00OTk0LTkxMDItOGNjODMxNjkzNzlmOm55TzRnNnB3QlNhZFB3WjhTVmNzeXdkVUE5VlNXeUU2
+2015-12-22 16:30:43,007 [ERROR] - Error response:
+2015-12-22 16:30:43,007 [ERROR] - 
+2015-12-22 16:30:43,008 [ERROR] - Удаленный сервер возвратил ошибку: (403) Запрещено.
