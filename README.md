@@ -1,3 +1,6 @@
+[![Expressly](https://buyexpressly.com/assets/img/expressly-logo-sm-gray.png)](https://buyexpressly.com)
+
+
 # expressly-plugin-dotnet-reference-implementation
 
 Reference Implementation of [The Expressly .NET SDK](https://github.com/expressly/expressly-plugin-sdk-dotnet-core)
