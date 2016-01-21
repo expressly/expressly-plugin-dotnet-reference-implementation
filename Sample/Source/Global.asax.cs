@@ -15,7 +15,7 @@ namespace Expressly.SDK.Sample.MVC
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            //Set Up ExpresslyPlugin Merchant interface (this is IExpresslyPluginService interface implementation)
+            //Set Up ExpresslyPlugin Merchant interface Implementation (this is IMerchantProvider interface implementation)
             ExpresslyPlugin.SetMerchantProvider<ExpresslyMerchantProvider>();
         }
     }
