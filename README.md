@@ -16,18 +16,7 @@ After run site if you go to **/expressly/api/ping** you can see the endpoint is 
 
 * * *
 
-
-## Configuration
-In order to use the Expressly .NET SDK with your application, you will need to first configure your application. By default, the SDK will attempt to look for Expressly-specific settings in your application's **web.config** file.
-
 # Implementation
-
-
-The ExpresslyProvider class gives you methods to talk directly to our back end.
-
-Make sure to publish ExpresslyRouter, this exposes the necessary endpoints for our back end to talk to.
-
-Finally, configure your application. (details below)
 
 This is sample of ASP MVC 4 project with the core steps that you will need to integrate your shop with the Expressly Network. These are:
 
@@ -35,10 +24,12 @@ This is sample of ASP MVC 4 project with the core steps that you will need to in
 
  1. **Set Up ExpresslyPlugin Merchant interface Implementation** - in entry point of ASP MVC aplication, you will need set Up ExpresslyPlugin Merchant interface Implementation. Entry point for ASP .MVC 4 - is an *Application_Start()* method in **[Global.asax.cs](https://github.com/expressly/expressly-plugin-dotnet-reference-implementation/blob/master/Sample/Source/Global.asax.cs)**.
 
- 1. **Configure your application** - Configure your application **web.config** (details below).
+ 1. **Configure your application** - Configure your application **[web.config](https://github.com/expressly/expressly-plugin-dotnet-reference-implementation/blob/master/Sample/Source/Web.config)** (details below).
  
 
 - - -
+## Configuration
+In order to use the Expressly .NET SDK with your application, you will need to first configure your application. By default, the SDK will attempt to look for Expressly-specific settings in your application's **[web.config](https://github.com/expressly/expressly-plugin-dotnet-reference-implementation/blob/master/Sample/Source/Web.config)** file.
 
 
 # Expressly Config Settings
