@@ -1,4 +1,4 @@
-[![Expressly](https://buyexpressly.com/assets/img/expressly-logo-sm-gray.png)](https://buyexpressly.com)
+[![Expressly](http://developer.buyexpressly.com/img/expressly-logo-sm-gray.png)](https://buyexpressly.com)
 # Expressly .NET SDK Sample
 
 This project is supplied as a reference for any developers wishing to integrate their ASP .NET e-commerce platform with the Expressly Network.
